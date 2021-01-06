@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+    margin: auto;
+}
+
+#header{
+    height: 100px;
+    width: 100%;
+    background: rgb(48, 48, 48);
+}
+
+#header h1{
+    text-align: center;
+    color: rgb(177, 177, 177);
+    margin-top: 0px;
+    padding-top: 4px;
+}
+
+.myButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#qnt{
+    text-align: center;
+}
+
+#back{
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(243, 229, 203);
+    position: relative;
+}
+
+.circle {
+    border-radius: 50%;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    box-sizing: border-box;
+}
